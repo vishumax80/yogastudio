@@ -1,0 +1,553 @@
+/*********
+Basic Setup
+**********/
+
+/********
+    color-reddish:#FC4539;
+    color-black:#000000;
+    color-lightred:#F55B60;
+    color-dull grey:#DCDCDC;
+
+  *******/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    Text-decoration:none;
+}
+
+.container{
+    max-width: 1400px;   
+    margin:auto;
+}
+
+
+/************
+ Header section
+ ************/
+.mainhdr{
+
+}
+/* full column for header section */
+.hdrsec {
+    height:600px ;
+    background: #000;
+    background-image: linear-gradient(270deg, rgba(231, 19, 19, 0.9),rgba(19, 8, 8, 0.9) 50%),url("./images/hdrimg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;         
+    max-width: 100%;
+}
+
+.hdrsec .logo img{
+    width:150px; 
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* Heading text */
+.hdrsec .hdrtxt h1{
+    font-size: 60px;
+    margin: 50px 50px;
+    color:#DCDCDC;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* Distinguish h1 to show different color */
+.hdrsec .hdrtxt h1 span{
+    color:#FC4539;
+}
+
+/* Header button */
+.hdrbtn{
+    background: #FC4539;
+    margin: 10px 50px;
+    padding:10px;
+    width:250px;
+    height: 70px;
+    color: #DCDCDC;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+/************
+ Service section
+ ************/
+.services{
+    height: 600px;
+    border:1px solid transparent;
+    background: #F8F8F8;
+}
+
+/* Service main container */
+.serv-sec{
+    
+        height:500px
+}
+
+.serv-head{
+    
+    margin-top: 50px;
+}
+
+.serv-head h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size:28px;
+    font-family: 'Roboto', sans-serif; 
+    line-height: 31px;
+}
+
+.line{
+    width:100px;
+    background: #FC4539;
+    height: 4px;
+    margin-left: 40.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.serv-head p{
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-family: Roboto, sans-serif;
+}
+.col3-serv{
+    
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.col3-serv .col{
+    background: #fff;
+    height:280px;
+    border:4px solid #FC4539;
+    margin-top: 80px;
+
+}
+.col3-serv .col .col-info{
+    
+    height:50px;
+    width:400px;
+    margin-top:15px ;
+}
+.col3-serv .col .col-info h3{
+background: #FC4539;
+border-top-right-radius:50px; 
+text-align: center;
+font-family: 'Roboto', sans-serif;;
+}
+.col3-serv .col .col-info p{
+    font-weight: 500;
+    color:grey;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.col3-serv .col img{
+       width:400px;
+       height: 200px;     
+}
+
+/************
+ Facility section
+ ************/
+ .facility{
+     width:100%;
+     height:500px;
+     background-image: url("./images/facilityimg.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;  
+     
+     
+ }
+ .one-sec{
+    border: 1px solid transparent;
+    height:400px;
+    width:100%;
+}
+.col-txt{
+    height:300px;
+    margin-top: 80px;
+}
+
+.col-txt h3{
+    color:white;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.col-txt p{
+    color:white;
+    margin:0 0 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.col-txt .color-btn{
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 40px;
+    background: #FC4539;
+    font-family: Roboto, sans-serif;
+    color:white;    
+}
+
+/************
+ About section
+ ************/
+.about{
+    height:700px;
+    background: #000;
+    border:1px solid black;
+}
+.col4sec{
+    height:500px;
+}
+
+.main-head{
+    margin-top: 20px;
+}
+.main-head h2{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color:white;
+}
+
+.main-head p{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color:white;
+}
+.col4-sec{
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+}
+
+.col4-sec .col{
+    background: #fff;
+    height:400px;
+    margin-top: 80px;
+    
+
+}
+.col4-sec .col .col-info{
+    
+    height:50px;
+    width:400px;
+    margin-top:15px ;
+}
+.col4-sec .col .col-info1 h3{
+background: #FC4539;
+border:50px; 
+text-align: left;
+font-family: 'Roboto', sans-serif;
+width:160px;
+position: absolute;
+left:0px;
+bottom:50px;
+font-size: 30px;
+}
+
+.col4-sec .col .col-info1 p{
+    font-weight: 500;
+    color:white;    
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    background: #000;
+    width:100px;
+    position: absolute;
+    left:0px;
+    bottom:8px;
+    padding:9px;
+
+}
+.col4-sec .col .col-info2 h3{
+    background: #FC4539;
+    border:50px; 
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    width:150px;
+    position: absolute;
+    left:360px;
+    bottom:50px;
+    font-size: 30px;
+    }
+    
+    .col4-sec .col .col-info2 p{
+        font-weight: 500;
+        color:white;    
+        text-align: left;
+        font-family: Roboto, sans-serif;
+        background: #000;
+        width:100px;
+        position: absolute;
+        left:360px;
+        bottom:8px;
+        padding:9px;
+    
+    }
+    
+    .col4-sec .col .col-info3 h3{
+        background: #FC4539;
+        border:50px; 
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        width:150px;
+        position: absolute;
+        left:720px;
+        bottom:50px;
+        font-size: 30px;
+        }
+        
+        .col4-sec .col .col-info3 p{
+            font-weight: 500;
+            color:white;    
+            text-align: left;
+            font-family: Roboto, sans-serif;
+            background: #000;
+            width:100px;
+            position: absolute;
+            left:720px;
+            bottom:8px;
+            padding: 9px;
+        
+        }
+    
+        .col4-sec .col .col-info4 h3{
+            background: #FC4539;
+            border:50px; 
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            width:150px;
+            position: absolute;
+            left:1080px;
+            bottom:50px;
+            font-size: 30px;
+            }
+            
+            .col4-sec .col .col-info4 p{
+                font-weight: 500;
+                color:white;    
+                text-align: left;
+                font-family: Roboto, sans-serif;
+                background: #000;
+                width:100px;
+                position: absolute;
+                left:1080px;
+                bottom:8px;
+                padding:9px;
+            
+            }
+        
+.col4-sec .col img{
+       width:320px;
+       height: 400px;     
+       
+}
+
+/************
+ Contact section
+ ************/
+.contact{
+    height:400px;
+}
+.content{
+    
+    width:100%;
+    height: 500px;
+    position: relative;
+    
+}
+.content::after{
+    content: '';
+    background-color:  #FC4539;
+    width:100%;
+    height:350px;
+    position: absolute;
+    top:0vh;
+    opacity: .7;
+    
+}
+.content img{
+    width:100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+.head-text{
+    border:1px solid #FFFFFF;
+    color:white;
+} 
+.head-text h1{
+    position: absolute;
+    left:15%;
+    top:20%;
+    z-index: 999;
+}
+.head-text p{
+    position: absolute;
+    left:15%;
+    top:35%;
+    z-index: 999;
+    max-width: 990px;
+}
+.brdr-btn{
+    border: 4px solid #fb5b21;
+    border-radius: 65px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    padding: 15px 35px;
+    position: absolute;
+    left:15%;
+    top:50%;
+    overflow: hidden;
+    z-index: 999;
+    background: none;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+button:hover{
+    background:  #FC4539;
+}
+
+
+/************
+testimonial section
+ ************/
+.testi-sec{
+    height:600px;
+}
+.test-head{
+    
+    width:1400px;
+    margin:auto;
+}
+.test-head h1{
+    text-align: center;
+}
+.test-head .line{
+    text-align: center;
+  
+}
+.testcol2{
+    margin-top: 30px;
+    height:400px;
+    display: flex;
+    justify-content: space-around;
+}
+.test-col{
+    width:500px;
+}
+.test-col img{
+    width:90px;
+    height:90px;
+    float:left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.test-col h5{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.test-col .line{
+    margin-left: 101px;
+    width:70px;
+}
+.test-col .box-text{
+    text-align: justify;
+    width:470px;
+    padding-left: 100px;
+}
+
+/************
+Footer section
+ ************/
+.ftr-drk{
+    height:500px;
+    background: #000;
+}
+.ftr-cont{
+    border:1px solid transparent;
+    height:500px;
+}
+.ftr-col3{
+    
+    height:400px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-around;
+}
+.col3-ftr{
+    
+    width:300px;
+    height:300px;
+    margin-top: 40px;
+}
+.col3-ftr h2{
+        color:#FC4539; 
+        text-align: center;     
+}
+.col3-ftr p{
+    color:#FC4539;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 10px;
+}
+.col3-ftr p img{
+    width:20px;
+    height:20px;
+    
+    margin-top: 20px;
+}
+.col3-ftr img{
+    widows: 25px;
+    height:200px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

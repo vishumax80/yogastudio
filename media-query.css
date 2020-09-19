@@ -1,0 +1,161 @@
+/* @media all and (min-width:1400px){
+        .col-txt{
+            margin-left: 30px;
+        }
+}
+
+@media all and (min-width:1276px){
+    .line {
+        margin-left: 36.5rem;
+    }
+    .col3-serv .col {
+     
+        width: 32%;
+    }
+    @media all and (min-width:1200px){
+        .line {
+            margin-left: 34.5rem;
+        }
+    .col3-serv .col img {
+
+        width: 375px;
+        height: 200px;
+    }   
+
+    .col3-serv .col .col-info h3 {
+    
+        width: 246px;
+    }
+}
+@media all and (min-width:980px){
+    .line {
+        margin-left: 27.5rem;
+    }
+    .col3-serv .col img {
+        width: 304px;
+        height: 200px;
+    }
+    .col3-serv .col .col-info h3 {
+        
+        width: 265px;
+    }
+    .col3-serv .col .col-info p {
+     
+        margin-left: -99px;
+     
+    }
+}
+
+@media all and (min-width:720px){
+    .line {
+        margin-left: 22.5rem;
+    }
+    .mainhdr {
+        width: 114%;
+    }
+    .col3-serv .col img {
+        width: 254px;
+     
+    }
+    .col3-serv .col .col-info h3 {
+                width: 251px;
+
+    }
+
+    .col3-serv .col .col-info p {
+     
+        margin-left: -139px;
+        font-size: 12px;
+     
+    }
+} */
+/* @media all and (min-width:640px){
+    .hdrsec .logo img {
+        width: 98px;
+    }
+
+    .hdrsec .hdrtxt h1 {
+        font-size: 40px;
+     
+    }
+    .hdrbtn {
+        width: 188px;
+        height: 59px;
+        font-size: 20px;
+    }
+    .line {
+        margin-left: 16.5rem;
+    }
+    .col3-serv .col img {
+        width: 197px;
+    }
+    .col3-serv .col .col-info h3 {
+        width: 180px;
+        font-size: 13px;
+    }
+    .col3-serv .col .col-info p {
+        font-size: 10px;
+        margin-left: -203px;
+    }
+    .col-txt p {
+        font-size: 14px;
+    }
+    .col-txt .color-btn {
+        padding: 5px 12px;
+        margin-top: -40px;
+    }
+}
+
+@media all and (min-width:340px){
+    .hdrsec .logo img {
+        width: 89px;
+        margin-left: 113px;
+    }
+    .hdrsec .hdrtxt h1 {
+        font-size: 25px;
+    }   
+    .hdrbtn {
+      
+        margin: 3px 67px;
+        padding: 10px;
+        width: 184px;
+        font-size: 20px;
+    }
+    .line {
+        margin-left: 7.5rem;
+    }  
+    .serv-head p {
+        max-width: 773px;
+        font-weight: 300;
+        font-size: 11px;
+    }
+    .col3-serv {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .col3-serv .col {
+        width: 54%;
+        margin-top: 7px;
+        height: 202px;
+    }
+    .facility {
+        width: 100%;
+        height: 248px;
+        margin-top: 193px;
+    }
+    .col-txt {
+        margin-left: 19px;
+        margin-top: 10px;
+    }
+    .col-txt p {
+        color: white;
+        margin: -25px 0 14px;
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+} 
+}*/
