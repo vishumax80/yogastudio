@@ -12,9 +12,11 @@ Basic Setup
 *{
     margin:0;
     padding:0;
+    
+}
+body{
     box-sizing: border-box;
 }
-
 li{
     list-style: none;
 }
@@ -28,12 +30,12 @@ a{
     margin:auto;
 }
 
-
 /************
  Header section
  ************/
 .mainhdr{
-
+   width:100%;
+   overflow: hidden;
 }
 /* full column for header section */
 .hdrsec {
@@ -43,7 +45,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;         
-    max-width: 100%;
+    width: 100%;
 }
 
 .hdrsec .logo img{
@@ -100,20 +102,24 @@ a{
 
 .serv-head h2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size:28px;
     font-family: 'Roboto', sans-serif; 
-    line-height: 31px;
+    line-height: 31px;  
+    
 }
 
-.line{
+.serv-head .line{
     width:100px;
     background: #FC4539;
     height: 4px;
-    margin-left: 40.5rem;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
+    margin: auto;
 }
+
+
+
 .serv-head p{
     margin: 0 auto;
     max-width: 800px;
@@ -193,7 +199,7 @@ font-family: 'Roboto', sans-serif;;
 
 .col-txt p{
     color:white;
-    margin:0 0 20px;
+    margin:auto;
     font-family: Roboto, sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
@@ -214,155 +220,80 @@ font-family: 'Roboto', sans-serif;;
  About section
  ************/
 .about{
-    height:700px;
+    
     background: #000;
-    border:1px solid black;
 }
 .col4sec{
-    height:500px;
+   
+    border:1px solid transparent;
+    
 }
-
-.main-head{
+/* .main-head{
     margin-top: 20px;
-}
+} */
+
 .main-head h2{
     text-align: center;
     font-family: Roboto, sans-serif;
     color:white;
+    margin-top: 20px;
 }
+
+.main-head .line{
+    width:100px;
+    background: #FC4539;
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;    
+    margin: auto;
+}
+
 
 .main-head p{
     text-align: center;
     font-family: Roboto, sans-serif;
     color:white;
 }
+
 .col4-sec{
-    
     display: flex;
     justify-content: space-between; 
     align-items: center;
     position: relative;
+    border:1px solid #FC4539;
+    
 }
 
-.col4-sec .col{
-    background: #fff;
+
+/* .col4-sec .col {
+
     height:400px;
-    margin-top: 80px;
-    
-
-}
-.col4-sec .col .col-info{
-    
-    height:50px;
     width:400px;
-    margin-top:15px ;
-}
-.col4-sec .col .col-info1 h3{
+   margin-bottom: 10px;
+} */
+.col4-sec .col h3{
 background: #FC4539;
 border:50px; 
 text-align: left;
 font-family: 'Roboto', sans-serif;
 width:160px;
-position: absolute;
-left:0px;
-bottom:50px;
 font-size: 30px;
-}
 
-.col4-sec .col .col-info1 p{
+}
+.col4-sec .col  p{
     font-weight: 500;
     color:white;    
     text-align: left;
     font-family: Roboto, sans-serif;
     background: #000;
     width:100px;
-    position: absolute;
-    left:0px;
-    bottom:8px;
-    padding:9px;
+    margin-bottom: 50px;
+   
 
 }
-.col4-sec .col .col-info2 h3{
-    background: #FC4539;
-    border:50px; 
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    width:150px;
-    position: absolute;
-    left:360px;
-    bottom:50px;
-    font-size: 30px;
-    }
-    
-    .col4-sec .col .col-info2 p{
-        font-weight: 500;
-        color:white;    
-        text-align: left;
-        font-family: Roboto, sans-serif;
-        background: #000;
-        width:100px;
-        position: absolute;
-        left:360px;
-        bottom:8px;
-        padding:9px;
-    
-    }
-    
-    .col4-sec .col .col-info3 h3{
-        background: #FC4539;
-        border:50px; 
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        width:150px;
-        position: absolute;
-        left:720px;
-        bottom:50px;
-        font-size: 30px;
-        }
-        
-        .col4-sec .col .col-info3 p{
-            font-weight: 500;
-            color:white;    
-            text-align: left;
-            font-family: Roboto, sans-serif;
-            background: #000;
-            width:100px;
-            position: absolute;
-            left:720px;
-            bottom:8px;
-            padding: 9px;
-        
-        }
-    
-        .col4-sec .col .col-info4 h3{
-            background: #FC4539;
-            border:50px; 
-            text-align: left;
-            font-family: 'Roboto', sans-serif;
-            width:150px;
-            position: absolute;
-            left:1080px;
-            bottom:50px;
-            font-size: 30px;
-            }
-            
-            .col4-sec .col .col-info4 p{
-                font-weight: 500;
-                color:white;    
-                text-align: left;
-                font-family: Roboto, sans-serif;
-                background: #000;
-                width:100px;
-                position: absolute;
-                left:1080px;
-                bottom:8px;
-                padding:9px;
-            
-            }
-        
 .col4-sec .col img{
-       width:320px;
-       height: 400px;     
+       width:350px;
+       height: 300px;     
        
 }
 
@@ -398,21 +329,25 @@ font-size: 30px;
      
 }
 .head-text{
-    border:1px solid #FFFFFF;
     color:white;
+    font-size: 0px;
+    
 } 
 .head-text h1{
     position: absolute;
     left:15%;
     top:20%;
     z-index: 999;
+    
 }
 .head-text p{
     position: absolute;
-    left:15%;
-    top:35%;
+    left:10%;
+    top:30%;
     z-index: 999;
-    max-width: 990px;
+    width: 800px;
+    font-size:20px;
+
 }
 .brdr-btn{
     border: 4px solid #fb5b21;
@@ -426,8 +361,8 @@ font-size: 30px;
     margin-top: -20px;
     padding: 15px 35px;
     position: absolute;
-    left:15%;
-    top:50%;
+    left:10%;
+    top:40%;
     overflow: hidden;
     z-index: 999;
     background: none;
@@ -444,28 +379,35 @@ button:hover{
 testimonial section
  ************/
 .testi-sec{
-    height:600px;
+    height:100%;
 }
 .test-head{
     
-    width:1400px;
+    width:100%;
     margin:auto;
 }
 .test-head h1{
-    text-align: center;
+   
 }
-.test-head .line{
-    text-align: center;
-  
+.line{
+    width:100px;
+    background: #FC4539;
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    margin: auto;
 }
 .testcol2{
-    margin-top: 30px;
-    height:400px;
+    margin:auto;
+    height:100%;
     display: flex;
-    justify-content: space-around;
-}
+    /* justify-content:center;
+    align-items: center; */
+}  
 .test-col{
-    width:500px;
+    width:auto;
+    margin:auto;
+    
 }
 .test-col img{
     width:90px;
@@ -474,17 +416,19 @@ testimonial section
     margin-right: 10px;
     border-radius: 50%;
 }
-
+.test-head h1{
+    text-align: center;
+}
 .test-col h5{
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
 }
-.test-col .line{
-    margin-left: 101px;
+ .test-col .line{
+    margin-left: 90px;
     width:70px;
-}
+} 
 .test-col .box-text{
-    text-align: justify;
+    text-align: center;
     width:470px;
     padding-left: 100px;
 }
@@ -493,46 +437,52 @@ testimonial section
 Footer section
  ************/
 .ftr-drk{
-    height:500px;
+    height:800px;
     background: #000;
 }
 .ftr-cont{
     border:1px solid transparent;
-    height:500px;
+   
 }
 .ftr-col3{
     
-    height:400px;
+    height:800px;
+    width:100%;
     margin-top: 50px;
-    display:flex;
-    justify-content: space-around;
+    border:1px solid red;   
+    
 }
 .col3-ftr{
     
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     margin-top: 40px;
+   
+
 }
 .col3-ftr h2{
         color:#FC4539; 
-        text-align: center;     
+        text-align: left;     
+        width:300px;
 }
 .col3-ftr p{
     color:#FC4539;
     margin-top: 20px;
-    text-align: center;
-    padding-left: 10px;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 15px;
+    
 }
-.col3-ftr p img{
+/* .col3-ftr p img{
     width:20px;
     height:20px;
-    
     margin-top: 20px;
-}
+    
+} */
 .col3-ftr img{
-    widows: 25px;
+    width: 100px;
     height:200px;
-    margin-left: 40px;
+    margin-left: auto;
     text-align: center;
 }
 
