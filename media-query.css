@@ -6,7 +6,24 @@
 }
 /* Tablets and ipads */
 @media(min-width:769px){
-    .ftr-col3 {
+    .col3-serv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .col3-serv .col {
+       
+        width:300px;
+        margin-top: 80px;
+     
+    }
+    .col3-serv .col img {
+        width: 300px;
+        height: 200px;
+        justify-content: space-between;
+    }
+    /* .ftr-col3 {
         margin-top: 53px;
         margin-left: 10px;
         width: 100%;
@@ -16,7 +33,7 @@
         width:300px;
         height:300px;
         margin-right: 0px;
-    }
+    } */
     .contact {
         margin:0px;
     }
@@ -24,13 +41,31 @@
 
     }
     .testcol2 {
-        /* display: block; */
+       display: flex;
         /* text-align: center; */
-        margin: 20px 80px;
+        margin: 0 auto;
         width:100%;
-    
     }
-    
+    .test-col .box-text {
+        text-align: center;   
+        padding-left:0px;
+    }
+    .brdr-btn{
+        margin-top: 30px; 
+        /* text-align: left; */
+        margin-left: 20px;
+    }
+    .head-text h1 {
+      font-size: 40px;
+      /* text-align: left; */
+      margin-top: -50px;
+      
+    }
+    .head-text p {
+        /* text-align: left; */
+        font-size: 20px;
+        margin-left: 40px;
+    }
     
 }
 /* Mobile phones */
@@ -56,7 +91,7 @@
         height:auto;
         
         }
-    }
+    
     .col4-sec .col {
         height: 200px;
         margin: 20px;
@@ -80,7 +115,15 @@
     margin-bottom: 10px;
     margin-top: 10px;   
 }
-
+.head-text h1 {
+    margin-bottom: 50px;
+}
+.head-text p{
+    margin-top:50px;
+}
+.brdr-btn{
+    margin-top: 50px;
+}
 
 .contact{
     /* margin-top: auto; */
@@ -90,17 +133,22 @@
     margin: auto;
 }
 .testcol2 {
-    /* display: block; */
+    display: block;
     /* text-align: center; */
-    margin: 20px 20px;
+    margin:auto;
     width:100%;
 
+
+}
+.test-col{
+    margin-bottom: 20px;
+    margin-left: 80px;
 }
 .test-col .box-text {
     text-align: justify;
     /* width: 447px; */
     padding-left: 100px;
-    margin-bottom: -7px;
+    margin-bottom: -10px;
     font-size: 14px;
     margin-top: 12px;
 }
@@ -109,14 +157,17 @@
     margin-top: 28px;
 }
 .ftr-col3 {
-    margin: 144px 0px 10px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    flex-wrap:wrap;
+    height:auto;      
+}
+.col3-ftr h2{   
+    font-size: 25px;
+}
+.col3-ftr p{   
+    font-size: 15px;
 }
 
-
+}
 
 
 @media(max-width:468px ){
@@ -147,11 +198,10 @@
         text-align: center;
     }
     .col-txt p {
-        margin: 0px 0 20px 20px;
-        font-size: 11px;
-        letter-spacing: 1px;
+        margin: auto;
+        font-size: 15px;
         text-align: center;
-        width: 400px;
+        width: 100%;
     }
    
     .col4-sec {
@@ -161,7 +211,7 @@
     }
     .col4-sec .col {
         
-        
+       
     }
 
 
@@ -180,7 +230,7 @@
         .content {
             margin-top: 0px;
         }
-    }
+    
     .contact {
         
         
@@ -229,20 +279,53 @@
         width:auto ;
         margin:auto;
         
-    
     }
 
-    /* .ftr-drk {
-        margin-top: 322px;
-    }
-    .ftr-drk {
-        height: auto;
-        margin-top: 322px;
-    } */
+  
 
     .ftr-col3 {
-        margin-top: 53px;
-        /* letter-spacing: 0; */
-        margin:auto;
         flex-wrap: wrap;
+        justify-content: center;
     }
+
+}
+    @media(max-width:320px ){
+        .hdrsec .logo img {
+            width: 102px;
+           margin-left:90px;
+        }
+
+        .hdrsec .hdrtxt h1 {
+            font-size: 50px;
+            margin-left:20px;
+            color: #DCDCDC;
+            font-weight: 300; 
+        }
+        .hdrbtn {
+         
+            margin-left:30px;
+            padding: 10px;
+            width: 80%;
+            height: auto;
+            color: #DCDCDC;
+            font-size: 23px;
+            border-radius: 50px;
+        }
+        .col-txt .color-btn {
+            margin-left: 46px;
+        }
+
+        .head-text h1{
+            position: absolute;
+            left:15%;
+            top:10%;
+            z-index: 999;
+            
+        }
+        .head-text p {
+            font-size: 15px;
+          
+        }
+        
+
+  }
