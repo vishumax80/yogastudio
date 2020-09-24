@@ -272,13 +272,13 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-/* .col .col-info{
+ /* .col-info{
     bottom: 40px;
     color: #ffffff;
     left: 0;
     position: absolute;
     text-align: left;
-} */
+}  */
 
 
 .col4-sec .col h3{
@@ -289,7 +289,6 @@ font-family: 'Roboto', sans-serif;
 width:160px;
 font-size: 30px;
 display: inline-block;
-
 }
 .col4-sec .col  p{
     font-weight: 500;
@@ -451,9 +450,9 @@ testimonial section
 Footer section
  ************/
 .ftr-drk{
-   
+    height:500px;
     background: #000;
-    border:1px solid green;
+    
 }
 .ftr-cont{
    border:1px solid transparent;
@@ -466,15 +465,12 @@ Footer section
   display: flex; 
     justify-content: space-between;
     align-items: center;
-    
-   
+ 
 }
 .col3-ftr{
     width:200px;
     height:200px;
     margin-top: 40px;
-   
-  
    
 }
 
